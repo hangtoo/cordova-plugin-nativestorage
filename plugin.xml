@@ -22,7 +22,7 @@
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="NativeStorage">
-                <param name="android-package" value="NativeStorage"/>
+                <param name="android-package" value="org.apache.cordova.nativestorage.NativeStorage"/>
             </feature>
         </config-file>
         <source-file src="src/android/NativeStorage.java" target-dir="src/org/apache/cordova/nativestorage" />
